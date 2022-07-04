@@ -36,7 +36,7 @@ public class UpAndDownGame {
                     input = Integer.parseInt(scanner.nextLine());
                 }
 
-                else if (input > randomNumber) {
+                else {
                     System.out.println("입력받은 숫자가 임의의 숫자보다 큽니다.");
 
                     chance--;
@@ -44,10 +44,6 @@ public class UpAndDownGame {
 
                     System.out.println("숫자를 입력하세요.");
                     input = Integer.parseInt(scanner.nextLine());
-                }
-
-                else {
-                    System.out.println("Impossible");
                 }
             }
 
